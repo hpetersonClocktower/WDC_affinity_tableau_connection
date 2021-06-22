@@ -1,8 +1,8 @@
 # Affinity & Tableau Connection
-This repository contains code to create a front end that sends a request to Affinity's API to gather data. This data is then formatted and can be exporeted into a readable format for Tableau. See additional documentation and examples [![here](https://tableau.github.io/webdataconnector/docs/wdc_tutorial)]
+This repository contains code to create a front end that sends a request to Affinity's API to gather data. This data is then formatted and can be exporeted into a readable format for Tableau. See additional documentation and examples ![here](https://tableau.github.io/webdataconnector/docs/wdc_tutorial)
 
 ## Set Up
-To begin be sure to have Git as well as npm and node installed. Get the WDC SDK as well. Detailed instructions for this setup can be found [![here](https://github.com/tableau/webdataconnector.git)]
+To begin be sure to have Git as well as npm and node installed. Get the WDC SDK as well. Detailed instructions for this setup can be found ![here](https://github.com/tableau/webdataconnector.git)
 Additionally note that the affinity.js file does not contain the Affinity API Key. It is essential that the API Key is not pushed to Git in order to keep the Affinity data secure. It can be found in Clocktower's Affinity. Add this to the affinity.js by filling out the API_KEY variable prior to launching the site.
 
 ## Launching the site
